@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    int life = 100;
     void OnGUI() {
-        GUILayout.Label("Player life");
+        GUILayout.Label("Player life: " + life);
     }
     // Start is called before the first frame update
     void Start()
